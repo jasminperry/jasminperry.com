@@ -1,0 +1,253 @@
+.footer-element a:link {
+    text-decoration: none;
+    color: #6c757d;
+}
+.footer-element a:hover {
+    text-decoration: underline;
+}
+.footer-element a:visited {
+    text-decoration: underline;
+    color: #6c757d;
+}
+.footer-element {
+    width: 145px;
+}
+footer {
+    padding: 0 25px 55px 25px;
+    font-family: 'Cormorant Garamond', serif;
+}
+.navbar-brand {
+    font-family: 'Dawning of a New Day', cursive;
+    color: #6c757d !important;
+}
+.nav-item {
+    font-family: 'Cormorant Garamond', serif;
+}
+h1 {
+    font-family: 'Dawning of a New Day', cursive;
+    color: #6c757d;
+    font-size: 4rem;
+    text-align: center;
+}
+body {
+    font-family: serif;
+    /* margin-bottom: 10px; */
+}
+
+/* rectangular header section lilac then white */
+.rectangle-header {
+    position: absolute;
+    height: 42rem;
+    background-color: #EAEBF6;
+    z-index: -2;
+    top: 0;
+    width: 100%;
+}
+header h1 {
+    color: #6c757d;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    font-size: 4rem;
+}
+header h3 {
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    color: #6c757d;
+    padding-bottom: 50px;
+    font-size: 1.5rem;
+}
+section h1 {
+    color: #6c757d;
+    padding: 50px 0;
+}
+svg {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10vw;
+    z-index: -1;
+    /* set height to pixels if you want angle to change with screen width */
+}
+
+/* rectangular header section white then lilac */
+.reverse-header {
+    position: relative;
+    height: 10rem;
+    background-color: #FFF;
+    z-index: -2;
+    top: 0;
+    width: 100%;
+}
+.bottom-section {
+    background-color: #EAEBF6;
+    position: relative;
+    height: 30rem;
+    padding: 0px 0;
+}
+/* other */
+p {
+    font-family: 'Cormorant Garamond', serif;
+    color: #6c757d;
+    font-size: 1.1rem;
+}
+.content-section {
+    max-width: 1000px;
+    width: 80%;
+    margin: auto;
+}
+
+.flex-container {
+    display: flex;
+    z-index: 1;
+}
+.flex-child {
+    border: 2px;
+}
+.flex-child.image {
+    flex: 0.4;
+    margin-right: 20px;
+    margin-left: 20px;
+}  
+.flex-child.bio {
+    flex: 0.6;
+    margin-right: 20px;
+}  
+header {
+    z-index: 2;
+    background-color: rgb(225, 225, 225, 0);
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 20%;
+    padding: 5px;
+  }
+
+.row {
+    max-width: 90%;
+    margin: auto;
+    padding-bottom: 35px;
+}
+  
+  /* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.instagram-label {
+    background-color: #EAEBF6;
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 40%;
+    right: 10%;
+    left: 10%;
+    top: 40%;
+  }
+.ig-position {
+    position: relative;
+}
+.instagram-label a:link {
+    text-decoration: none;
+    color: #6c757d;
+}
+.instagram-label a:hover {
+    text-decoration: underline;
+}
+.instagram-label a:visited {
+    text-decoration: underline;
+    color: #6c757d;
+}
+.flex-child.contact {
+    flex: 0.6;
+    margin-right: 20px;
+    margin-left: 20px;
+}  
+.flex-child.contact.image {
+    flex: 0.4;
+    margin-right: 20px;
+}
+a {
+    font-family: 'Cormorant Garamond', serif;
+}
+a:link {
+    text-decoration: none;
+    color: #6c757d;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:visited {
+    text-decoration: underline;
+    color: #6c757d;
+}
+h4 {
+    font-family: 'Cormorant Garamond', serif;
+    color: #6c757d;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 1.5rem;
+}
+.card-label {
+    background-color: #EAEBF6;
+    max-width: 20%;
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+  }
+.card-label a:link {
+    text-decoration: none;
+    color: #6c757d;
+}
+.card-label a:hover {
+    text-decoration: underline;
+}
+.card-label a:visited {
+    text-decoration: underline;
+    color: #6c757d;
+}
+
+  /*publications page */
+  /* Three image containers (use 25% for four, and 50% for two, etc) */
+  .card-column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+  }
+
+.card-row {
+    max-width: 90%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+  
+  /* Clear floats after image containers */
+.card-row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.publication {
+    position: relative;
+  }
+
+
+.text-block {
+    position: absolute;
+    bottom: 20%;
+    right: 10%;
+    left: 10%;
+    top: 20%;
+    background-color: #EAEBF6;
+    color: #6c757d;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    margin: auto;
+    text-align: center;
+  }
